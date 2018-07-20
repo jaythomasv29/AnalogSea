@@ -1,0 +1,80 @@
+body *{
+	box-sizing: border-box;
+}
+body{
+	background-color: #5394e1;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+
+#btn-submit{
+	background-color:green;
+	color: white;
+	font-weight: bold;
+}
+
+#btn-submit:hover{
+	box-shadow: 3px 3px green;
+	background-color:#fff;
+	color:black;
+}
+
+h2{
+	font-weight:normal;
+}
+label{
+	display:block;
+	margin-bottom:15px;
+}
+
+#log-ref{
+	text-align:center;
+	color:white;
+	font-weight: bold;
+}
+#log-ref a{
+	text-decoration: /*none*/;
+	color:white;
+}
+#logo{
+	height: 35px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+form{
+	background-color:white;
+	width: 440px;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 40px;
+	border-radius: 2px;
+}
+
+	
+fieldset{
+	border:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.signup-form #btn-submit, input {
+	display:block;
+	width:330px;
+	height:55px;
+	font-size: 18px;
+	padding:15px;
+	border:2px solid lightgrey;
+	border-radius: 1px;
+	margin:auto;
+	margin-bottom:15px;
+}
+
+.signup-form legend{
+	text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="utf-8" name="description" content="analog sea signup page">
+	<meta name="keywords" content="analog sea, signup, register">
+  <meta name="author" content="Analog Sea">
+    <meta name="viewport" content="width=device-width">
+	<title>Sign Up</title>
+
+	<!-- reset -->
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<main>
+		<img id="logo" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="analog-sea-logo">
+	<!-- action with server end-point and method to post -->
+		<section>
+		<form class=signup-form action="/signup/" method="post">
+			<fieldset name="signup-info">
+				<legend><h2>Sign Up</h2></legend>
+				<label class="labels" for="email">Email</label>
+				<input placeholder="foo@bar.com" type="email" name="email" id="email" required>
+				<label for="password">Password</label>
+				<!-- password type=password -->
+				<input placeholder="1234passw0rd" type="password" name="password" id="pwd" required>
+			</fieldset>
+
+		<!-- submit button -->
+		<button type="submit" class="btn" id="btn-submit">Submit</button>
+		<!-- reset button -->
+		<!-- <button type="reset" class="btn" id="btn-reset">Reset</button> -->
+		<!--  -->
+		</form>
+		<p id="log-ref">Already have an account? <a href="#login">Log in</a></p>
+		</section>
+	</main>
+</body>
+</html>
